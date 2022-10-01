@@ -5,8 +5,8 @@ import numpy as np
 
 #import the model
 
-pipe= pickle.load(open('C:/Users/mansi/Desktop/CSv/laptop_price_predictor/pipe.pkl','rb'))
-df= pickle.load(open('C:/Users/mansi/Desktop/CSv/laptop_price_predictor/df.pkl','rb'))
+pipe= pickle.load(open('pipe.pkl','rb'))
+df= pickle.load(open('df.pkl','rb'))
 
 st.title("Laptop Price Predictor")
 
